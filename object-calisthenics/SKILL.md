@@ -135,8 +135,8 @@ class GradeCalculador:
 
 **Alternative Solutions**:
 
-- Polymorphism (Strategy/State patterns)
-- Null Object pattern
+- Polymorphism (Strategy/State patterns).
+- Null Object pattern.
 
 ### Wrap all primitives and strings
 
@@ -183,7 +183,7 @@ class Subject:
         self._score = self._score.add_bonus(points)
 ```
 
-**Guideline**: _Apply it when the primitive has validation rules, business logic or related behaviors. Like `Email`, `PhoneNumber`, `Temperature`, `Distance` or `DateRange`_
+**Guideline**: _Apply it when the primitive has validation rules, business logic or related behaviors. Like `Email`, `PhoneNumber`, `Temperature`, `Distance` or `DateRange`_.
 
 ### First class collections
 
@@ -370,8 +370,8 @@ Large files are harder to read, understand, and maintain. Size often indicates m
 
 **Application**:
 
-- Classes: ~100 lines maximum
-- Modules/packages: ~10 files maximum
+- Classes: ~100 lines maximum.
+- Modules/packages: ~10 files maximum.
 
 **Guideline**: _Adjust these limits to your project's context. A well-structured 130-line class may be fine. Use size as an indicator of potential multiple responsibilities, not as a strict rule._
 
@@ -473,7 +473,7 @@ score.set_value(new_score)
 
 **Good**:
 
-_Tell object to perform action → Object makes decisions internally_
+_Tell object to perform action → Object makes decisions internally_.
 
 ```python
 class Score:
@@ -513,7 +513,7 @@ Don't apply all rules at once. Start with the most impactful:
 #### **High impact. Easy to Apply**
 
 - [One level of indentation per method](#one-level-of-indentation-per-method).
-- [Do not use the `else` keyword](#do-not-use-the-else-keyword)
+- [Do not use the `else` keyword](#do-not-use-the-else-keyword).
 - [Do not abbreviate](#do-not-abbreviate).
 
 #### **High Impact, Moderate Difficulty**
