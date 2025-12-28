@@ -18,9 +18,9 @@ Test-Driven Development is a software development method where you write a faili
 
 **If you think you're facing an exception, always ask your human teammate first.** Exceptions may include:
 
-- Throwaway prototypes
-- Generated code
-- Configuration files
+- Throwaway prototypes.
+- Generated code.
+- Configuration files.
 
 ## Fundamental principles
 
