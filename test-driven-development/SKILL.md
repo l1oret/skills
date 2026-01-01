@@ -1,6 +1,6 @@
 ---
 name: test-driven-development
-description: Mandatory process for implementing features or fixing bugs. Write test first, verify it fails, implement minimum code.
+description: Use Test driven development (TDD) before implementing code, changing code, adding new features, injecting dependencies, fixing bugs...
 ---
 
 # Test Driven Development
@@ -11,7 +11,11 @@ Test-Driven Development is a software development method where you write a faili
 
 **ALWAYS:**
 
+- Any modification to production code.
 - New features.
+- Dependency injections.
+- Modifying classes.
+- Changing implementations.
 - Bug fixes.
 - Behavior changes.
 - Refactoring.
