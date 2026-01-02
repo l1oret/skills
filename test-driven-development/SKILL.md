@@ -1,6 +1,6 @@
 ---
 name: test-driven-development
-description: Use Test driven development (TDD) before implementing code, changing code, adding new features, injecting dependencies, fixing bugs...
+description: description: TDD, test driven development. Use before changing any production code, writing code, implementing features, adding methods, modifying classes, injecting dependencies, fixing bugs or refactoring.
 ---
 
 # Test Driven Development
