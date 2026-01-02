@@ -1,6 +1,6 @@
 ---
 name: object-calisthenics
-description: Apply this set of design rules for improving the maintainability, readability, testability, and comprehensibility of object-oriented code. Use when writing new classes and methods, refactoring code, identifying and resolving design smells and code reviewing.
+description: Apply Object Calisthenics design constraints to object-oriented code: one level of indentation, no else keyword, wrap primitives, first class collections, one dot per line, no abbreviations, small entities, max two instance variables, no getters/setters. Use when refactoring OOP code, improving encapsulation, reducing coupling, or applying Tell Don't Ask principle.
 ---
 
 # Object Calisthenics
